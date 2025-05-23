@@ -1,4 +1,4 @@
-# Prévision de la Croissance du PIB Marocain (2000–2030)
+# Prédiction du taux de croissance économique du Maroc(2000–2030)
 
 Cette application Streamlit permet de visualiser les prévisions de croissance du PIB du Maroc entre 2000 et 2030, avec ajustement interactif des facteurs économiques :
 - Taux de chômage
