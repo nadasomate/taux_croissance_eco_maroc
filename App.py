@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 
 
 # CONFIGURATION DE LA PAGE
-st.set_page_config(page_title="Prévision du PIB marocain", layout="centered")
+st.set_page_config(page_title="Prédiction du taux de croissance économique du Maroc", layout="centered")
 
 
 # TITRE ET DESCRIPTION
-st.markdown("<h1 style='text-align: center; color: #D62828;'>Modélisation & Prévision de la Croissance du PIB (2000–2030)</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #D62828;'>Prédiction du taux de croissance économique du Maroc(2000–2030)</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; font-size:16px;'>Données historiques (2000–2023) et prévisions ajustables (2024–2030)</h4>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; font-size:15px;'>"
