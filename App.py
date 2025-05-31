@@ -10,7 +10,7 @@ st.set_page_config(page_title="Prédiction du taux de croissance économique du 
 
 # TITRE ET DESCRIPTION
 st.markdown("<h1 style='text-align: center; color: #D62828;'>Prédiction du taux de croissance économique du Maroc(2000–2030)</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; font-size:16px;'>Données historiques (2000–2023) et prévisions ajustables (2024–2030)</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; font-size:16px;'>Données historiques (1967–2023) et prévisions ajustables (2024–2030)</h4>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; font-size:15px;'>"
     "Ce tableau de bord interactif permet de visualiser les prévisions de croissance du PIB marocain "
@@ -59,7 +59,7 @@ for factor, coef in coefficients.items():
 
 # 6. AFFICHAGE DU GRAPHIQUE
 fig, ax = plt.subplots(figsize=(12, 6))
-ax.plot(real_pib.index, real_pib, label="📈 PIB Réel (2000–2023)", color='#444444', linewidth=2)
+ax.plot(real_pib.index, real_pib, label="📈 PIB Réel (1967–2023)", color='#444444', linewidth=2)
 ax.plot(pib_forecast.index, pib_forecast, label="🔵 Prévision Initiale", linestyle='--', color='#1f77b4', linewidth=2)
 ax.plot(adjusted_forecast.index, adjusted_forecast, label="🔴 Prévision Ajustée", linestyle='-', color='#d62728', linewidth=2)
 ax.set_title("Évolution du PIB Marocain", fontsize=18, weight='bold')
