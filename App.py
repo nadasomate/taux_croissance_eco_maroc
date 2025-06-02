@@ -9,7 +9,7 @@ st.set_page_config(page_title="Prédiction du taux de croissance économique du 
 
 
 # TITRE ET DESCRIPTION
-st.markdown("<h1 style='text-align: center; color: #D62828;'>Prédiction du taux de croissance économique du Maroc(2000–2030)</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #D62828;'>Prédiction du taux de croissance économique du Maroc</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; font-size:16px;'>Données historiques (1967–2023) et prévisions ajustables (2024–2030)</h4>", unsafe_allow_html=True)
 st.markdown(
     "<p style='text-align: center; font-size:15px;'>"
